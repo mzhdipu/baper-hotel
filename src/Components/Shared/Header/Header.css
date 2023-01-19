@@ -1,0 +1,155 @@
+header{
+    background-color: #003580;
+    position: relative;
+}
+header .content-container{
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+}
+
+header .header-logo{
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.header-top .header-btn>button{
+    margin-left: 20px;
+}
+.header-top .header-btn button{
+    padding: 10px 10px;
+    color: #003580;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+/* HEADER MENU  */
+nav{
+    max-height: 80px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+
+
+
+/* HEADER TITLE  */
+.header-text{
+    align-items: center;
+    display: flex;
+    padding: 30px 0 50px;
+}
+.header-content{
+    color :white
+}
+.header-content h1{
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+.header-content p{
+    font-size: 22px;
+}
+
+/* HEADER SEARCH  */
+.headerSearch{
+    background-color: white;
+    border: 3px solid #FEBB02;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 10px  0;
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    bottom: -25px;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+}
+.headerSearchItem input,
+.headerSearchItem span{
+    border: none;
+    outline: none;
+    color: lightgray;
+    font-size: 16px;
+}
+.headerSearchIcon{
+    color: lightgray;
+    font-size: 20px;
+}
+.headerSearchItem button {
+    background: #003580;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.select-h-date{
+    position:absolute;
+    top: 50px;
+}
+
+.option-container {
+    width: 20%;
+    padding: 15px;
+    position: absolute;
+    top: 53px;
+    right: 15%;
+    background-color: #ffffff;
+}
+.option-ins-dec {
+    display: flex;
+    align-items: center;
+    /* gap: 18px; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.option-ins-dec h4{
+    font-weight: 400;
+    color: #000000;
+}
+.option-ins-dec .option-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.option-ins-dec .option-numbers button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #003580;
+    cursor: pointer;
+}
+.option-ins-dec .option-numbers span{
+    color: #000000
+}
