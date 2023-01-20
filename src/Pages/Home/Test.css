@@ -1,9 +1,7 @@
-
-header{
-    background-color: #59B571;
-    position: relative;
+/* *{
+    margin: 0;
+    padding: 0;
 }
-
 .header-top-content{
     display: flex;
     justify-content: space-between;
@@ -25,4 +23,5 @@ header{
     background-color: white;
     border: none;
     padding: 10px ;
-}
+} */
+

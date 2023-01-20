@@ -1,0 +1,25 @@
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid transparent;
+}
+nav ul li a:hover,
+nav .active{
+    border: 1px solid white;
+}

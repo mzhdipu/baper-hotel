@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from '../../Components/Home/Banner/Banner';
+import SearchForm from '../../Components/Home/SearchForm/SearchForm';
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is Homepage</h1>
+        <div className='container-width'>
+            <Banner></Banner>
+            <SearchForm></SearchForm>
         </div>
     );
 };

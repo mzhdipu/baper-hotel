@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'
-import NavItems from './NavItems/NavItems';
+import NavItems from '../../Components/Shared/Header/NavItems/NavItems';
+import './Test.css'
 
-const Header = () => {
+const Test = () => {
     return (
         <header>
             <div className='content-container'>
@@ -32,4 +32,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Test;

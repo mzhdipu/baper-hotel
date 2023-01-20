@@ -1,0 +1,82 @@
+.header-container{
+    position: relative;
+}
+.headerSearch{
+    background-color: white;
+    border: 3px solid #FEBB02;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 10px  0;
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    bottom: -25px;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+}
+.headerSearchItem input,
+.headerSearchItem span{
+    border: none;
+    outline: none;
+    color: lightgray;
+    font-size: 16px;
+}
+.headerSearchIcon{
+    color: lightgray;
+    font-size: 20px;
+}
+.headerSearchItem button {
+    background: #59B571;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.select-h-date{
+    position:absolute;
+    top: 50px;
+}
+
+.option-container {
+    width: 20%;
+    padding: 15px;
+    position: absolute;
+    top: 53px;
+    right: 15%;
+    background-color: #ffffff;
+}
+.option-ins-dec {
+    display: flex;
+    align-items: center;
+    /* gap: 18px; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.option-ins-dec h4{
+    font-weight: 400;
+    color: #000000;
+}
+.option-ins-dec .option-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.option-ins-dec .option-numbers button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #59B571;
+    cursor: pointer;
+}
+.option-ins-dec .option-numbers span{
+    color: #000000
+}
+
+.option-numbers button:disabled{
+    cursor: not-allowed;
+}
